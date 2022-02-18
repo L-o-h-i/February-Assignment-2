@@ -1,0 +1,15 @@
+a=0
+b=1
+sum=0
+n=int(input("enter the n:"))
+for n in range(0,n):
+    print(a,end='')
+    sum=sum+a
+    c=a+b
+    a=b
+    b=c
+print("\n The sum of Fibonacci series Numbers=%d"%sum)
+Output:
+enter the n:9
+01123581321
+The sum of Fibonacci series Number=54
